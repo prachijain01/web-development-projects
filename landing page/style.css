@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    flex:1;
+}
+.container{
+    display: flex;
+    width:100%;
+   
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.coloumn{
+    display: flex;
+    margin: 5px 0px;
+    padding: 5px;
+    
+}
+.brands{
+    display: flex;
+    flex-wrap: row;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+    margin: 30px 0px;
+}
+.brand{
+    display: block;
+    height: 15px;
+    width:100px;
+
+}
+#bussinesstoday{
+    content: url('https://d33wubrfki0l68.cloudfront.net/3e7d5ad4318dd7fc5c15e0d8abb47d190afafb0a/7e588/assets/images/businesstoday.png');
+}
+#lawcom{
+    content: url('https://d33wubrfki0l68.cloudfront.net/2613f61355e4314f3bff75fb0fb5ec9b97aaa1a3/a68bb/assets/images/lawcom.png');
+}
+#parambh{
+    height:30px !important;
+    content: url('https://d33wubrfki0l68.cloudfront.net/09ebee79b120fe697724f631f1bfe13f4607d13e/06d3d/assets/images/parambh.png');
+}
+#brandbench{
+    height:50px !important;
+    content: url('https://d33wubrfki0l68.cloudfront.net/73e57344c30a5611733186bc8733fa96dde1a842/2f91f/assets/images/barandbench.png');
+}
+.footer-header, .footer-copyright{
+    display: flex;
+    justify-content: center;
+}
